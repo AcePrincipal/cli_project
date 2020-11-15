@@ -18,7 +18,7 @@ class Charity
     end 
 
     def self.display_charities
-        puts "Please choose one of the following charities by typing a numbre and pressing enter: "
+        puts "Please choose one of the following charities by typing a number and pressing enter: "
         self.all.each_with_index{|char, index| puts "#{index+1}. #{char.name}"}
     end 
 
