@@ -31,8 +31,9 @@ class Cli
         if !index.between?(0, 9)
             puts "Please enter just a number between 1 and 10."
             self.secondary_input
-        end
-        index 
+        else 
+            index
+        end 
     end
 
     def another_charity?
